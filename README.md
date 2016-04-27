@@ -1,2 +1,0 @@
-# techwangh.github.io
-test
