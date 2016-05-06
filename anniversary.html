@@ -18,6 +18,7 @@
 <body>
 	<div id="mainDiv">
 		<div id="content">
+			<!--
 			<div id="code">
 				<span class="comments">/**</span><br />
 				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
@@ -46,30 +47,31 @@
 				i.marry(u);<br />
 				i.liveHappilyWith(u);<br />
 			</div>
+			-->
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
+						WuLaoShi, I have fallen in love with you for
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
 						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						<div class="signature">- wanghao</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="copyright">
-			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
-			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
+			Inspired by <a href="http://pezy.github.io/love/">pezy.github.io/love/</a> project.<br />
+			Copyright © 2011 <a href='http://techwangh.github.io'>http://techwangh.github.io</a> 2016-2016
 		</div>
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2010, 10, 2);
+		together.setFullYear(2011, 11, 28);
 		together.setHours(20);
 		together.setMinutes(0);
 		together.setSeconds(0);
@@ -87,7 +89,7 @@
 		} else {
 			setTimeout(function () {
 				startHeartAnimation();
-			}, 5000);
+			}, 1000);
 
 			timeElapse(together);
 			setInterval(function () {
@@ -95,7 +97,7 @@
 			}, 500);
 
 			adjustCodePosition();
-			$("#code").typewriter();
+			//$("#code").typewriter();
 		}
 	</script>
 </body>
